@@ -1,65 +1,46 @@
 # C Program Learning
 
-This repository is a collection of small C programs I wrote while learning and practicing the basics of C programming.
+A collection of beginner-friendly C programs written while learning and practicing the language. The examples focus on core concepts and small console-based exercises.
 
-It includes exercises covering:
-- Variables and data types
-- Input/output
-- Conditional statements
-- Loops
+## Topics Covered
+
+- Variables, data types, and input/output
+- Conditional statements and loops
 - Arrays and matrices
 - Strings and character handling
-- Basic console-based programs
+- Basic problem solving and pattern printing
 
-## Repository Contents
+## Programs
 
-- `Accepting Password Without Displaying Input Using getch().c`
-- `Case convertor.c`
-- `Program to Accept a Password and Display Asterisks Instead of Characters.c`
-- `Pyramid.c`
-- `avg of n terms.c`
-- `greatest among 3.c`
-- `multiplication tables using for loop.c`
-- `oddevencheck.c`
-- `printing natural numbers.c`
-- `sum of digits.c`
-- `sum of row and column in matrix.c`
-- `sum-array.c`
-- `temperature convert celsius to farenhiet.c`
+| File | Exercise |
+|---|---|
+| `Accepting Password Without Displaying Input Using getch().c` | Read password input without displaying typed characters |
+| `Case convertor.c` | Convert character case |
+| `Program to Accept a Password and Display Asterisks Instead of Characters.c` | Display asterisks while entering a password |
+| `Pyramid.c` | Print a pyramid pattern |
+| `avg of n terms.c` | Calculate the average of a set of terms |
+| `greatest among 3.c` | Find the greatest of three values |
+| `multiplication tables using for loop.c` | Print multiplication tables with a loop |
+| `oddevencheck.c` | Check whether a number is odd or even |
+| `printing natural numbers.c` | Print natural numbers |
+| `sum of digits.c` | Calculate the sum of a number's digits |
+| `sum of row and column in matrix.c` | Calculate row and column sums in a matrix |
+| `sum-array.c` | Calculate the sum of array elements |
+| `temperature convert celsius to farenhiet.c` | Convert Celsius to Fahrenheit |
 
-## How to Run a Program
+## Compile and Run
 
-1. Open a terminal in the repository folder.
-2. Compile the C file using GCC:
+You need a C compiler such as GCC. Compile and run one program at a time from the repository directory:
 
 ```bash
 gcc "Pyramid.c" -o pyramid
 ./pyramid
 ```
 
-Replace `Pyramid.c` with the file you want to run.
+Replace `Pyramid.c` with the source file you want to run and choose a suitable output name. On Windows, run the compiled executable as `pyramid.exe` (or use the output name you chose).
 
-## Example Programs Included
+> **Note:** `getch()` is not part of standard C and may require a platform-specific header or compiler. The password example that uses it may need adjustments for your environment.
 
-- Password input using `getch()`
-- Character case conversion
-- Even/odd checking
-- Natural number printing
-- Sum of digits
-- Matrix row and column sum
-- Temperature conversion
-- Multiplication table generation
-- Pyramid printing
+## About
 
-## Notes
-
-These programs are beginner-friendly and intended for practice, learning, and experimentation with C programming concepts.
-
-## Goals
-
-This repository helps in building a strong foundation in:
-- C syntax and structure
-- Control flow
-- Problem solving with C
-- Basic algorithmic thinking
-
+These programs are for learning, experimentation, and building a foundation in C syntax, control flow, and basic algorithmic thinking.
